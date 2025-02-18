@@ -2,7 +2,7 @@ const initialState = {
   list: [],
 };
 
-const cartReducer = (state = initialState, action) => {
+const indexReducers = (state = initialState, action) => {
   switch (action.type) {
     case "ADD_TO_FAVOURITE":
       return {
@@ -20,4 +20,4 @@ const cartReducer = (state = initialState, action) => {
   }
 };
 
-export default cartReducer;
+export default indexReducers;
